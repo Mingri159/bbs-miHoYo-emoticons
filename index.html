@@ -1,0 +1,13 @@
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><link rel="manifest" href="manifest.json"><title>bbs-miHoYo-emoticons</title><script defer="defer" src="js/chunk-vendors.f5f16681.js"></script><script defer="defer" src="js/app.f0e07acc.js"></script><link href="css/chunk-vendors.7b7133db.css" rel="stylesheet"><link href="css/app.626dbe58.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but bbs-miHoYo-emoticons doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body><script>if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('./sw.js')
+        .then(function (registration) {
+          // 注册成功
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        })
+        .catch(function (err) {
+          // 注册失败:(
+          console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+  }</script></html>
